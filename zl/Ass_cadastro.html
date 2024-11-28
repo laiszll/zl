@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang='pt-BR'>
+
+<head>
+    <title>Assassinos da ZL</title>
+    <link rel="stylesheet" href="Asszl.css.css">
+</head>
+
+
+<body>
+
+<header>
+    <img src = "img/Clipped_image_20240831_143942.png">
+    <input type="search">
+</header>
+ 
+<main>
+
+    <h2>Gostaria de se juntar ao nosso time de pesquisa?</h2>
+<p>Comece preenchendo este breve formulário para averiguaremos se você compreende as competências exigidas.</p>
+<div class="icon">
+<img scr =  "img/form.png"></div>
+
+<form action="" method="post">
+    <label for="nome"> Nome:</label>
+    <input type="text" name="nome" id="nome" pattern="[aA-zZ\s]+$" autofocus required>
+</br>
+    <label for="telefone"> Telefone:</label>
+    <input type="text" name="telefone" id="telefone" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$" required>
+</br>
+    <label for="email"> Email:</label>
+    <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+</br>
+    <label for="dataN"> Data de Nascimento:</label>
+    <input type="text" name="dataN" id="dataN" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" required>      
+</br>
+    <label for="cidade"> Cidade:</label>
+    <input type="text" name="cidade" id="cidade" pattern="[aA-zZ\s]+$" required>
+</br>
+    <label for="ocupacao">Ocupação:</label>
+    <input type="text" name="ocupacao" id="ocupacao" pattern="[aA-zZ\s]+$" required>
+</form> 
+<div>
+<p>
+    <label for="texto">Seu projeto: </label>
+</p>
+<p>
+    <textarea name="texto" id="texto"></textarea>
+</p>
+
+<p>
+    Escolha entre os casos que gostaria de trabalhar:
+    </p>
+    <p>
+    <select name="casos">
+        <option value="1">Assassino do Caminão de Gelo</option>
+        <option value="2">O Açougueiro de Bay Harbor</option>
+        <option value="3">O Assassino da Trindade</option>
+    </select>
+</p>
+
+
+<p>
+    <label for="atuar">Gostaria de atuar presencialmente?</label>
+</p>
+<p>
+<input type="radio" name="atuar" id="sim">
+<label for="atuar">Sim</label> 
+</p>
+
+<p>
+    <input type="radio" name="atuar" id="nao">
+    <label for="atuar">Não</label> 
+    </p>
+ <input type="submit">
+</div>
+    <p>
+        Caso seja selecionado deve enviaremos um email e você deve retornar:
+    </p>
+    <ul>
+        <li>Documento de identificação</li>
+        <li>Cúrriculo</li>
+        <li>Carta de recomendação</li>
+        <li>Seu projeto de pesquisa que poderá ser inserido no acervo</li>
+        </ul>
+        
+
+</main>
+</body>
