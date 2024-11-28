@@ -1,0 +1,185 @@
+header{
+    background-color: rgb(133, 54, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    z-index: 10%;
+    position: fixed;
+    left: 0%;
+    top:0%;
+    padding: 2%;
+    }
+    
+    
+    body{
+        background-color: rgb(219, 210, 181);
+    }
+    
+    
+    article {
+        width: 20%;
+        background-color: rgb(119, 30, 30);
+        float: left;
+        margin:1%;
+        padding: 5%;
+        border-radius: 3%;
+        text-align:center ;
+        border-color: rgb(83, 20, 20);
+    }
+    
+    
+    footer{
+        position: relative;
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin: 2%;
+        font-size: small;
+    }
+    
+    article img{
+        width: 80%;
+        border-radius: 3%;   
+    }
+    header img{
+        width: 10%;
+    }
+    main{
+        margin-top:10%;
+        margin-bottom: 10%;
+        bottom: 10px;
+    }
+    
+    a{
+        color: rgb(255, 255, 255);
+         font-size: 100%;
+         text-decoration: none;
+    }
+    a:hover{
+        color:rgb(116, 98, 98);
+    }
+    
+    p{
+        color: rgb(0, 0, 0);
+    }
+    footer a{
+        color: rgb(68, 16, 16);
+
+    }
+    article p{
+        color: bisque;
+    }
+    h1{
+        color: rgb(192, 165, 165);
+        
+    }
+   header input{
+        position: absolute;
+        left: 67%;
+        top:10%;
+        width: 30%;
+    }
+    asside{
+        float: left;
+        background-color:brown;
+        width: 25%;
+        margin: 3%;
+        padding: 2%;
+        text-align: center;
+        border-radius: 2%;
+        margin-left: 13%;  
+    }
+    section{
+        width: 50%;
+        background-color: brown;
+        padding: 2%;
+        float: left;
+        border-radius: 2%;
+    }
+    section p{
+        color: antiquewhite;
+        font-size:larger;
+    }
+    asside p{
+        color: antiquewhite;
+    }
+    asside img{
+        width: 70%;
+    }
+    table{
+        width: 100%;
+        padding: 2%;
+        border-radius: 2%;
+        border-color: bisque;
+        border-style:hidden;
+        text-align: center;
+    }
+    tr{
+        color:bisque;
+        background-color: rgb(110, 33, 33);
+    }
+    th{
+      background-color: rgb(145, 65, 65);
+    }
+    figcaption{
+        color: antiquewhite;
+    }
+    section img{
+        width: 40%;
+        float:left;
+        padding: 3%;
+    }
+    form{
+        background-color: brown;
+        padding: 3%;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgb(83, 29, 29);
+        display: block;
+        text-align: left;
+        border-radius: 2%;
+    }
+   form input{
+        background-color: antiquewhite;
+        border-color: rgb(83, 29, 29);
+        margin: 10px;
+        width: 90%;
+        
+    }
+    div{
+        background-color: brown;
+        padding: 3%;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid rgb(83, 29, 29);
+        display: block;
+        text-align: left;
+        border-radius: 2%;
+    }
+    select{
+        background-color:bisque;
+        text-align: center;
+    }
+    select:hover{
+        color:rgb(117, 35, 35);
+    }
+    li{
+        list-style-type: circle;
+        color:antiquewhite;
+        
+    }
+    ul{
+        background-color: brown;
+        border-radius: 2%;
+        margin: 2%;
+        width: 20%;
+        border: 1px solid rgb(83, 29, 29);
+    }
+    input[type="submit"] {
+       background-color:rgb(180, 145, 111);
+    }
+    input[type="submit"]:hover{
+        color:bisque
+    }
+    
+    
